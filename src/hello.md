@@ -10,6 +10,6 @@ Learn more about:
 
 You may also be interested in the:
 
-- [Frontend Book](https://stoatchat.github.io/for-frontend)
+- [Frontend Book](https://stoatchat.github.io/for-web)
 - [Backend Book](https://stoatchat.github.io/stoatchat)
 - [Android Book](https://stoatchat.github.io/for-android)
