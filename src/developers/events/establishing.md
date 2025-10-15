@@ -49,8 +49,9 @@ The ready query parameter can be passed multiple times to specify multiple field
 | `policy_changes`  | Includes all new policy changes you should be aware of, this is not sent to bots.                               |
 
 For example:
+
 ```
 ?ready=users&ready=servers&ready=user_settings[ordering]
 ```
 
-You may specify these in the connection URL: `wss://ws.revolt.chat?version=1&format=json`.
+You may specify these in the connection URL: `wss://stoat.chat/events?version=1&format=json`.

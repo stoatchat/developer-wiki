@@ -2,24 +2,24 @@
 authors = []
 language = "en"
 src = "src"
-title = "Revolt Documentation"
+title = "Stoat Developer Documentation"
 
 [preprocessor]
 
 [preprocessor.admonish]
 command = "mdbook-admonish"
-assets_version = "3.0.2"    # do not edit: managed by `mdbook-admonish install`
+assets_version = "3.0.3"    # do not edit: managed by `mdbook-admonish install`
 
 [output]
 
 [output.html]
 additional-css = ["./mdbook-admonish.css"]
-git-repository-url = "https://github.com/revoltchat"
+git-repository-url = "https://github.com/stoatchat"
 git-repository-icon = "fa-github"
-edit-url-template = "https://github.com/revoltchat/wiki/edit/main/{path}"
+edit-url-template = "https://github.com/stoatchat/developer-wiki/edit/main/{path}"
 
 [output.html.redirect]
-"/markdown.html" = "https://support.revolt.chat/kb/interface/messages/formatting-your-messages"
+"/markdown.html" = "https://support.stoat.chat/kb/interface/messages/formatting-your-messages"
 "/plugin-api.html" = "/developers/legacy-plugin-api.html"
 "/stack/developers/permissions.html" = "/developers/api/permissions.html"
 "/stack/developers/rate_limits.html" = "/developers/api/ratelimits.html"

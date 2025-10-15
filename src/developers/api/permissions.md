@@ -1,6 +1,6 @@
 # Permissions
 
-Revolt's permission system works by sequentially applying allows then denies.
+Stoat's permission system works by sequentially applying allows then denies.
 
 ## Flow Chart
 
@@ -10,7 +10,7 @@ Below are the high-level steps taken to determine both server and channel permis
     <img src="../../assets/api/Permission Hierarchy.svg" style="background: white; padding: 1em; border-radius: 1em" />
 </a>
 
-If you are looking to implement permissions in a library, I highly recommend reading either `revolt.js` or `delta` source code since all the routines are well commented and should be relatively easy to understand.
+If you are looking to implement permissions in a library, I highly recommend reading either the Stoat JavaScript SDK or the backend source code since all the routines are well commented and should be relatively easy to understand.
 
 ## Values
 

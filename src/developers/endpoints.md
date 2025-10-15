@@ -1,5 +1,7 @@
 # Endpoints
 
+**We are moving stuff around currently following the rebrand, guidance will follow soon!**
+
 You can connect to the API on the following URLs:
 
 | URL                           |  Release   | Description                 |

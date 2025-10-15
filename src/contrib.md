@@ -1,6 +1,6 @@
 # Contribution Guide
 
-This is the contribution guide for developers wanting to help out with Revolt.
+This is the contribution guide for developers wanting to help out with Stoat.
 
 # Repository Lifecycle
 
@@ -18,7 +18,7 @@ This is the contribution guide for developers wanting to help out with Revolt.
 
 To keep commit history nice and tidy, always use [Conventional Commit style](https://www.conventionalcommits.org/en/v1.0.0-beta.2/) for any merge commit messages. And where possible:
 
-1. `Squash and Merge` for bug fixes / small features, especially if the fix has multiple iterations, [example](https://github.com/revoltchat/revite/pull/492), or if the commits don't follow conventional commit style.
+1. `Squash and Merge` for bug fixes / small features, especially if the fix has multiple iterations, [example](https://github.com/stoatchat/revite/pull/492), or if the commits don't follow conventional commit style.
 
 Beyond this point you should usually check with a maintainer on how to merge, and should only proceed with the following if the commits follow [Conventional Commit style](https://www.conventionalcommits.org/en/v1.0.0-beta.2/):
 
@@ -27,19 +27,23 @@ Beyond this point you should usually check with a maintainer on how to merge, an
 
 # What can I help with?
 
-The main project board can serve as a helpful starting point:
+Stuff is currently being moved around, for the mean time, come ask in the development server: https://stt.gg/API
 
-1. If you are new to the code base or are looking for issues we really need help with, look at ["What can I help with?"](https://github.com/orgs/revoltchat/projects/3/views/11)
-2. Issue Board ["Free Issues"](https://github.com/orgs/revoltchat/projects/3/views/1): issues that anyone can pick up and are generally free to work on
-3. Issue Board ["Todo"](https://github.com/orgs/revoltchat/projects/3/views/1): these are issues that are probably fine to pick up, but please ask first since a lot of these tend to be complicated and potentially already planned
-4. Working on new issues and fixes: ideally you should run new features by us, most fixes are probably going to be alright though, we wouldn't want to reject any PRs that we don't deem suitable after work has already been done. If it's a fix, make sure to make an issue for it first, if it's a new feature, it may be better suited in [Feature Suggestions](https://github.com/revoltchat/revolt/discussions/categories/feature-suggestions)
+Also typically `help wanted` labels are available on repo issues!
 
-Any issues marked with "Future Work" or with a milestone greater than the current milestone are out of bounds and should not be worked on since it's likely that the team already has a plan in place, any work you may do may conflict with prior ideas, and your work may potentially be rejected if it does fit the criteria exactly. In general, these issues are just postponed to reduce long term technical debt, i.e. allow current issues to be handled.
+<!-- The main project board can serve as a helpful starting point:
+
+1. If you are new to the code base or are looking for issues we really need help with, look at ["What can I help with?"](https://github.com/orgs/projects/3/views/11)
+2. Issue Board ["Free Issues"](https://github.com/orgs/projects/3/views/1): issues that anyone can pick up and are generally free to work on
+3. Issue Board ["Todo"](https://github.com/orgs/projects/3/views/1): these are issues that are probably fine to pick up, but please ask first since a lot of these tend to be complicated and potentially already planned
+4. Working on new issues and fixes: ideally you should run new features by us, most fixes are probably going to be alright though, we wouldn't want to reject any PRs that we don't deem suitable after work has already been done. If it's a fix, make sure to make an issue for it first, if it's a new feature, it may be better suited in [Feature Suggestions](https://github.com/discussions/categories/feature-suggestions)
+
+Any issues marked with "Future Work" or with a milestone greater than the current milestone are out of bounds and should not be worked on since it's likely that the team already has a plan in place, any work you may do may conflict with prior ideas, and your work may potentially be rejected if it does fit the criteria exactly. In general, these issues are just postponed to reduce long term technical debt, i.e. allow current issues to be handled. -->
 
 # Project Guidance
 
 Please read the additional relevant guidance on:
 
-- [Developing for Backend](https://github.com/revoltchat/backend?tab=readme-ov-file#development-guide) (contrib guide TBA)
-- [Contributing to Frontend](https://revoltchat.github.io/frontend/contribution-guide.html)
-- [Contributing to Android](https://revoltchat.github.io/android/contributing/guidelines/)
+- [Developing for Backend](https://github.com/stoatchat/backend?tab=readme-ov-file#development-guide) (contrib guide TBA)
+- [Contributing to Frontend](https://stoatchat.github.io/for-web/contribution-guide.html)
+- [Contributing to Android](https://stoatchat.github.io/for-android/contributing/guidelines/)

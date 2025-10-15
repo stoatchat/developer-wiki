@@ -1,6 +1,6 @@
 # Changelog
 
-You can find the API changelog on the [releases page on GitHub](https://github.com/revoltchat/backend/releases)!
+You can find the API changelog on the [releases page on GitHub](https://github.com/stoatchat/stoatchat/releases)!
 
 # Legacy Changelog
 

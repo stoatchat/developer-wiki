@@ -8,7 +8,7 @@ This page documents various incoming and outgoing events.
 
 ### Authenticate
 
-Authenticate with Revolt.
+Authenticate with the server.
 
 ```json
 {
@@ -66,6 +66,7 @@ Subscribe to a server's UserUpdate events.
 ```
 
 Implementation notes:
+
 - Subscriptions automatically expire within 15 minutes.
 - A client may have up to 5 active subscriptions.
 - This has no effect on bot sessions.

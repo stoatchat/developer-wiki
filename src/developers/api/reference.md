@@ -1,4 +1,4 @@
-<!-- <iframe style="width: 100%; height: calc(100vh - 160px); margin-top: 40px; border: none" src="https://developers.revolt.chat/api/"></iframe>-->
+<!-- <iframe style="width: 100%; height: calc(100vh - 160px); margin-top: 40px; border: none" src="https://developers.stoat.chat/api/"></iframe>-->
 <style>
     body {
         background: var(--scalar-background-1);
@@ -35,8 +35,8 @@
     }
 </style>
 
-<script id="api-reference" data-url="https://api.revolt.chat/openapi.json"></script>
+<script id="api-reference" data-url="https://stoat.chat/api/openapi.json"></script>
 <script src="https://cdn.jsdelivr.net/npm/@scalar/api-reference"></script>
 <script>
-    document.querySelector('h1.menu-title').innerHTML = "<a href='/'>Revolt Wiki</a>";
+    document.querySelector('h1.menu-title').innerHTML = "<a href='/'>Stoat Developer Wiki</a>";
 </script>

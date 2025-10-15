@@ -2,7 +2,7 @@
 
 File uploads work by first sending a file to the server and then using the ID provided.
 
-You can find out what kinds of files you can upload by visiting [the API documentation](https://autumn.revolt.chat/scalar).
+You can find out what kinds of files you can upload by visiting [the API documentation](https://cdn.stoatusercontent.com/scalar).
 
 To upload a file, pick the desired tag then send a **POST** to `{endpoint}/{tag}` along with a `multipart/form-data` body with one field `file` that contains the file you wish to upload.
 
